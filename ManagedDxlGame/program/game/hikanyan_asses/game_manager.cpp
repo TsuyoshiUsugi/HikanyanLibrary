@@ -10,10 +10,6 @@ void game_manager::gameStart()
 
 void game_manager::gameMain(float delta_time)
 {
-    DrawStringEx(50, 50, -1, "ねこ");
-    DrawStringEx(DXE_WINDOW_WIDTH / 2 - 80, DXE_WINDOW_HEIGHT * 0.2, -1, "シューティングゲーム");
-
-
     entity_controller::getInstance()->update(delta_time);
     entity_controller::getInstance()->draw();
 }

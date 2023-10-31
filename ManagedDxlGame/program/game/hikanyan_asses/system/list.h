@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <iostream>
 #include <string>
-#include <vector>
-#include <list>
+
+
 //MyListは、双方向リストの実装です。
 
 

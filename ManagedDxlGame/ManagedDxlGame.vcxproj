@@ -255,6 +255,7 @@
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
     <ClCompile Include="program\hikanyan_library\component\rigidbody_2d.cpp" />
+    <ClCompile Include="program\hikanyan_library\component\transform.cpp" />
     <ClCompile Include="program\hikanyan_library\game_object.cpp" />
     <ClCompile Include="program\hikanyan_library\mono_behaviour.cpp" />
     <ClCompile Include="program\hikanyan_library\object.cpp" />
@@ -301,6 +302,7 @@
     <ClInclude Include="program\hikanyan_library\component\box_collider_2d.h" />
     <ClInclude Include="program\hikanyan_library\component\component.h" />
     <ClInclude Include="program\hikanyan_library\component\rigidbody_2d.h" />
+    <ClInclude Include="program\hikanyan_library\component\transform.h" />
     <ClInclude Include="program\hikanyan_library\game_object.h" />
     <ClInclude Include="program\hikanyan_library\mono_behaviour.h" />
     <ClInclude Include="program\hikanyan_library\object.h" />
